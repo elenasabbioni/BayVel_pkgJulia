@@ -1,0 +1,16 @@
+name = "BayVel"
+uuid = "5138d125-55ef-44ad-ad69-2ec750ceacfe"
+authors = ["Elena Sabbioni <elenasabbioni@hotmail.it>"]
+version = "0.1.0"
+
+[deps]
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+LanguageServer = "2b0e0bc5-e4fd-59b4-8912-456d1b03d8d7"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+LogExpFunctions = "2ab3a3ac-af41-5b50-aa03-7779005ae688"
+PDMats = "90014a1f-27ba-587c-ab20-58faa44d9150"
+ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+ToggleableAsserts = "07ecc579-1b30-493c-b961-3180daf6e3ae"
