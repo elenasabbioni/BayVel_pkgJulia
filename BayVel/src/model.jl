@@ -84,7 +84,7 @@ function MCMC(
 
     #--------- MCMC Parameters
     SampleToSave::Int64 = Int64(trunc((mcmc.iter-mcmc.burnin)/mcmc.thin)) # Compute number of posterior samples after burn-in and thinning
-    thinburnin = mcmc.burnins
+    thinburnin = mcmc.burnin
     iter = Int64(1)
 
     p2 = Progress(mcmc.burnin +(SampleToSave-1)*mcmc.thin, desc="iterations ", offset=0,showspeed=true) # Progress bar
